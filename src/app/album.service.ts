@@ -32,6 +32,7 @@ export class AlbumService {
    }
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 import { Injectable } from '@angular/core';
 
@@ -48,3 +49,6 @@ export class AlbumService {
 =======
 }
 >>>>>>> ce6a0a420d9d6625ad70c652c8734460b404259e
+=======
+}
+>>>>>>> feature/euloge
