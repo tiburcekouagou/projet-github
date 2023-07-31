@@ -76,3 +76,8 @@ export class AlbumService {
   }
 
 }
+
+  paginate(start: number, end: number): Album[] {
+    return this.getAlbums().slice(start, end)
+   }
+}
