@@ -98,6 +98,7 @@
   "cli": {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     "analytics": "c7cd1229-f6a9-43c2-b468-071d9f3e0312"
 =======
     "analytics": "6d941103-aa38-4803-a96f-98055ae6c9c7"
@@ -105,5 +106,8 @@
 =======
     "analytics": "e9578c93-8f81-4ef9-b7af-f5a38d8ee508"
 >>>>>>> bdf5dfe188bf77658226fa18d0319e01d1b3da9a
+=======
+    "analytics": "e9578c93-8f81-4ef9-b7af-f5a38d8ee508"
+>>>>>>> ce6a0a420d9d6625ad70c652c8734460b404259e
   }
 }
