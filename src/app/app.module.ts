@@ -7,15 +7,28 @@ import { AlbumsComponent } from './albums/albums.component';
 =======
 import { AlbumDetailsComponent } from './album-details/album-details.component';
 >>>>>>> ac2dd8dec99874eab1174b27e4cd4539b02928a2
+import { AlbumDetailsComponent } from './album-details/album-details.component';
+
+
+import { AlbumsComponent } from './albums/albums.component';
+
+import { AlbumDetailsComponent } from './album-details/album-details.component';
+ 
+
+ 
 
 @NgModule({
   declarations: [
     AppComponent,
-<<<<<<< HEAD
-    AlbumsComponent
-=======
-    AlbumDetailsComponent
->>>>>>> ac2dd8dec99874eab1174b27e4cd4539b02928a2
+
+
+    AlbumsComponent,
+
+    AlbumDetailsComponent,
+ 
+
+    AlbumDetailsComponent,
+ 
   ],
   imports: [
     BrowserModule
