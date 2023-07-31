@@ -13,6 +13,7 @@ import { AlbumDetailsComponent } from './album-details/album-details.component';
 import { AlbumsComponent } from './albums/albums.component';
 
 import { AlbumDetailsComponent } from './album-details/album-details.component';
+import { LoginComponent } from './login/login.component';
  
 
  
@@ -28,6 +29,7 @@ import { AlbumDetailsComponent } from './album-details/album-details.component';
  
 
     AlbumDetailsComponent,
+         LoginComponent,
  
   ],
   imports: [
