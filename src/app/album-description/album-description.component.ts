@@ -1,4 +1,4 @@
-import { Component,OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Album } from '../album';
 import { ActivatedRoute } from '@angular/router';
 import { AlbumService } from '../album.service';
@@ -11,15 +11,13 @@ import { AlbumService } from '../album.service';
 export class AlbumDescriptionComponent implements OnInit {
   album: Album | undefined
   constructor(
-    private route : ActivatedRoute,
-    private aS : AlbumService
-  ){}
+    private route: ActivatedRoute,
+    private aS: AlbumService
+  ) { }
   ngOnInit(): void {
     // throw new Error('Method not implemented.');
-    const id = this.route.snapshot.params['albumId']
-
+    const id = this.route.snapshot.params['id']
     this.album = this.aS.getAlbum(id)
-    
   }
 
 }
